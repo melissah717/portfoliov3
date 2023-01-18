@@ -44,11 +44,10 @@ export const Circles = styled.div`
 export const WelcomeMessage = styled.span`
     color: #ffffff;
     background: #000000;
-    font-size: 100px;
+    font-size: 80px;
     font-weight: bold;
     font-family: 'Raleway', sans-serif;
     text-transform: lowercase;
-
     
     &:before{
         content: 'Melissa';
@@ -61,6 +60,7 @@ export const WelcomeMessage = styled.span`
 
 export const NeonWrapper = styled.div`
     display: inline-flex;
+    flex-direction: row-reverse;
     filter: brightness(200%);
     overflow: hidden;
 `

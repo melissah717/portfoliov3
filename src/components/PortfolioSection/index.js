@@ -7,7 +7,7 @@ import {
   PortfolioCard,
   PortfolioIcon,
   PortfolioH2,
-  PortfolioP
+  PortfolioA1,
 } from './PortfolioElements';
 
 const PortfolioSection = () => {
@@ -16,32 +16,22 @@ const PortfolioSection = () => {
       <PortfolioH1>My Works</PortfolioH1>
       <PortfolioWrapper>
         <PortfolioCard>
+          
           <PortfolioIcon />
-          <PortfolioH2>LambdaVibe</PortfolioH2>
-          <PortfolioP>
-            We help reduce your fees and increase your overall revenue.
-          </PortfolioP>
+          <PortfolioH2 href="https://www.google.com">LambdaVibe</PortfolioH2>
         </PortfolioCard>
         <PortfolioCard>
           <PortfolioIcon/>
           <PortfolioH2>GatorMart</PortfolioH2>
-          <PortfolioP>
-            You can access our platform online anywhere in the world.
-          </PortfolioP>
         </PortfolioCard>
         <PortfolioCard>
           <PortfolioIcon />
           <PortfolioH2>Tank Game</PortfolioH2>
-          <PortfolioP>
-            Unlock our special membership card that returns 5% cash back.
-          </PortfolioP>
         </PortfolioCard>
         <PortfolioCard>
           <PortfolioIcon />
-          <PortfolioH2>Tank Game</PortfolioH2>
-          <PortfolioP>
-            Unlock our special membership card that returns 5% cash back.
-          </PortfolioP>
+          <PortfolioH2>Database Design</PortfolioH2>
+
         </PortfolioCard>
       </PortfolioWrapper>
     </PortfolioContainer>

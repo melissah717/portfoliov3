@@ -6,7 +6,7 @@ export const PortfolioContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #010606;
+  background: #000000;
 
   @media screen and (max-width: 768px) {
     height: 1100px;
@@ -49,7 +49,7 @@ export const PortfolioCard = styled.div`
   transition: all 0.2s ease-in-out;
 
   &:hover {
-    transform: scale(1.02);
+    transform: scale(1.04);
     transition: all 0.2s ease-in-out;
     cursor: pointer;
   }
@@ -59,6 +59,8 @@ export const PortfolioIcon = styled.img`
   height: 160px;
   width: 160px;
   margin-bottom: 10px;
+  position: relative;
+
 `;
 
 export const PortfolioH1 = styled.h1`
@@ -71,12 +73,14 @@ export const PortfolioH1 = styled.h1`
   }
 `;
 
-export const PortfolioH2 = styled.h2`
+export const PortfolioH2 = styled.a`
   font-size: 1rem;
   margin-bottom: 10px;
-`;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
 
-export const PortfolioP = styled.p`
-  font-size: 1rem;
-  text-align: center;
+  &:hover {
+    color: magenta
+  }
 `;

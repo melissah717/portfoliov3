@@ -1,25 +1,51 @@
 import React from 'react'
 import {
-    ContactCard,
-    ContactContainer,
-    ContactHeader,
-    ContactInfo, 
-    ContactWrapper
+  ContactContainer,
+  ContactWrapper,
+  Column1,
+  Column2,
+  TextWrapper,
+  Heading,
+  Subtitle,
+  Img,
+  ImgWrap,
+  ContactRow, 
+  TopLine
+
 } from './ContactElements'
 
-const ContactSection = () => {
-  return (
-    <ContactContainer id='contact'>
-        <ContactWrapper>
-        <ContactCard>
-            <ContactHeader> Hello
-                <ContactInfo>
+const ContactSection = ({ lightBg,
+  imgStart,
+  topLine,
+  lightText,
+  headline,
+  description,
+  img,
+  alt,
+  id,
 
-                </ContactInfo>
-            </ContactHeader>
-        </ContactCard>
-        </ContactWrapper>
-    </ContactContainer>
+  darkText }) => {
+  return (
+    <>
+    <ContactContainer lightBg={lightBg} id={id}>
+    <ContactWrapper>
+      <ContactRow imgStart={imgStart}>
+        <Column1>
+        <TopLine>Contact Me</TopLine>
+          <TextWrapper>
+            <Heading lightText={lightText}>{headline}</Heading>
+            <Subtitle darkText={darkText}>{description}</Subtitle>
+          </TextWrapper>
+        </Column1>
+        <Column2>
+          <ImgWrap>
+            <Img src={img} alt={alt} />
+          </ImgWrap>
+        </Column2>
+      </ContactRow>
+    </ContactWrapper>
+  </ContactContainer>
+</>
   )
 }
 

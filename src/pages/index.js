@@ -6,6 +6,7 @@ import AboutSection from '../components/AboutSection';
 import PortfolioSection from '../components/PortfolioSection'
 import ContactSection from '../components/ContactSection';
 import { aboutOne } from '../components/AboutSection/Data'
+import { contactInfo } from '../components/ContactSection/Data'
 
 const Home = () => {
 
@@ -21,7 +22,7 @@ const Home = () => {
             <WelcomeScreen />
             <AboutSection {...aboutOne}/> 
             <PortfolioSection />
-            <ContactSection />
+            <ContactSection {...contactInfo} />
         </>
     )
 }
