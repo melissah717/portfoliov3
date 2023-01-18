@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { WelcomeContent, HomeBtnWrapper, WelcomeBg, WelcomeContainer, Dodge, WelcomeMessage, NeonWrapper, Gradient, ArrowRight, ArrowForward } from './WelcomeElements'
+import { WelcomeContent, HomeBtnWrapper, WelcomeContainer, Dodge, WelcomeMessage, NeonWrapper, Gradient, ArrowRight, ArrowForward } from './WelcomeElements'
 import Button from '../ButtonElements'
 
 const WelcomeScreen = () => {
