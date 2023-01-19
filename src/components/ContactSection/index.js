@@ -30,8 +30,7 @@ const ContactSection = ({ lightBg,
         <Column1>
         <TopLine>Contact Me</TopLine>
           <TextWrapper>
-          <Subtitle darkText={darkText}>email</Subtitle>
-            <Heading lightText={lightText}><a mailto="melissa.h717@outlook.com">melissa.h717@outlook.com</a></Heading>
+            <Heading lightText={lightText}>melissa.h717@outlook.com</Heading>
             <Subtitle darkText={darkText}>Based in the San Francisco, Bay Area</Subtitle>
           </TextWrapper>
         </Column1>
