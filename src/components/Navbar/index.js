@@ -52,7 +52,7 @@ const Navbar = ({ toggle }) => {
                             <NavLinks to='portfolio' smooth={true} duration={400} spy={true} exact='true'>My Work</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="contact">Contact Me</NavLinks>
+                            <NavLinks to='contact' smooth={true} duration={400} spy={true} exact='true'>Contact Me</NavLinks>
                         </NavItem>
                     </NavMenu>
                     <NavBtn>

@@ -54,6 +54,9 @@ export const TextWrapper = styled.div`
   max-width: 540px;
   padding-top: 0;
   padding-bottom: 60px;
+  align-items: center;
+  justify-content: center;
+  display: block;
 `;
 
 export const TopLine = styled.div`
@@ -64,14 +67,16 @@ export const TopLine = styled.div`
   letter-spacing: 1.4px;
   text-transform: lowercase;
   margin-bottom: 16px;
+  align-items: center;
+  justify-content: center;
 `;
 
 export const Heading = styled.h1`
   margin-bottom: 24px;
-  font-size: 48px;
+  font-size: 30px;
   line-height: 1.1;
   font-weight: 600;
-  color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#000000')};
+  color: ${({ lightText }) => (lightText ? '#000000' : '#e7e7e7')};
 
   @media screen and (max-width: 480px) {
     font-size: 32px;
@@ -80,22 +85,26 @@ export const Heading = styled.h1`
 
 export const Subtitle = styled.p`
   max-width: 440px;
-  margin-bottom: 35px;
+  margin-bottom: 10px;
   font-size: 18px;
   line-height: 24px;
   color: ${({ darkText }) => (darkText ? '#ffffff' : '#fff')};
 `;
 
+export const Links = styled.a`
 
+`
 export const ImgWrap = styled.div`
   max-width: 555px;
   height: 100%;
 `;
 
 export const Img = styled.img`
-  width: 100%;
+  width: 80%;
   margin-top: 0;
-  margin-right: 0;
+  /* margin-right: 0; */
   margin-left: 10px;
-  padding-right: 50px;
+  /* padding-right: 50px; */
+  border-radius: 200px;
+  filter: greyscale(30%) brightness(0.4);
 `;

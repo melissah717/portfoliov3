@@ -16,10 +16,7 @@ import {
 
 const ContactSection = ({ lightBg,
   imgStart,
-  topLine,
   lightText,
-  headline,
-  description,
   img,
   alt,
   id,
@@ -33,8 +30,9 @@ const ContactSection = ({ lightBg,
         <Column1>
         <TopLine>Contact Me</TopLine>
           <TextWrapper>
-            <Heading lightText={lightText}>{headline}</Heading>
-            <Subtitle darkText={darkText}>{description}</Subtitle>
+          <Subtitle darkText={darkText}>email</Subtitle>
+            <Heading lightText={lightText}><a mailto="melissa.h717@outlook.com">melissa.h717@outlook.com</a></Heading>
+            <Subtitle darkText={darkText}>Based in the San Francisco, Bay Area</Subtitle>
           </TextWrapper>
         </Column1>
         <Column2>

@@ -1,10 +1,10 @@
-import '../../images/avatar.svg'
+import '../../images/melly.png'
 
 export const contactInfo = {
     id: 'contact',
     headline: 'contact me', 
     descripton: 'melissa.h717@outlook.com',
-    img: require('../../images/avatar.svg').default,
+    img: require('../../images/melly.png'),
     alt: 'avatar', 
     primary: true,
     imgStart: true,
