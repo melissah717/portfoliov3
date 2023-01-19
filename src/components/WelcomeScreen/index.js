@@ -24,7 +24,7 @@ const WelcomeScreen = () => {
                         <Dodge></Dodge>
                     </NeonWrapper>
                     <HomeBtnWrapper>
-                        <Button to="about" onMouseEnter={onHover} onMouseLeave={onHover}>
+                        <Button to="about" onMouseEnter={onHover} onMouseLeave={onHover} smooth={true} duration={600}>
                             Learn More {hover ? <ArrowForward />: <ArrowRight />}
                         </Button>
                     </HomeBtnWrapper>

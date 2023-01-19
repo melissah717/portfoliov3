@@ -31,7 +31,7 @@ const ContactSection = ({ lightBg,
         <TopLine>Contact Me</TopLine>
           <TextWrapper>
             <Heading lightText={lightText}>melissa.h717@outlook.com</Heading>
-            <Subtitle darkText={darkText}>Based in the San Francisco, Bay Area</Subtitle>
+            <Subtitle darkText={darkText}>currently based in the san francisco bay area</Subtitle>
           </TextWrapper>
         </Column1>
         <Column2>

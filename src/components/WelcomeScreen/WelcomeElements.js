@@ -72,7 +72,7 @@ export const WelcomeContent = styled.div`
 
 
 export const Gradient = styled.span`
-    background: linear-gradient(113.58893008880955deg, #3d8bacff 4.927083333333334%,rgba(208, 218, 224,1) 97.84374999999999%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(107,98,127,1) 35%, rgba(16,80,93,1) 100%);
     position: absolute;
     top: 0;
     left: 0;

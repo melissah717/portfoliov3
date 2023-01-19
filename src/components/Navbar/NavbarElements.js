@@ -90,7 +90,11 @@ export const NavLinks = styled(LinkS)`
   cursor: pointer;
 
   &.active {
-    color: pink;
+    font-weight: 800;
+  }
+
+  &:hover{
+    color: #6b627f;
   }
 `;
 
