@@ -7,7 +7,6 @@ import {
   PortfolioCard,
   PortfolioIcon,
   PortfolioH2,
-  PortfolioA1,
 } from './PortfolioElements';
 
 const PortfolioSection = () => {
