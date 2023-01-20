@@ -6,9 +6,10 @@ export const AboutContainer = styled.div`
   display: flex;
   background-color: #000000;
   background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#000000')};
+  padding: 50px;
 
   @media screen and (max-width: 768px) {
-    padding: 100px 0;
+    padding: 100px 50px;
   }
 `;
 
@@ -97,7 +98,7 @@ export const ImgWrap = styled.div`
 `;
 
 export const Img = styled.img`
-  width: 100%;
+  width: 80%;
   margin-top: 0;
   margin-right: 0;
   margin-left: 10px;

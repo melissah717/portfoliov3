@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const ContactContainer = styled.div`
   height: 100%;
   justify-content: center;
-  display: flex;
+  display: block;
   background-color: #000000;
   background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#000000')};
 
@@ -20,13 +20,13 @@ export const ContactWrapper = styled.div`
   max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
-  padding: 0 24px;
+  padding: 0 20px;
   justify-content: center;
 `;
 
 export const ContactRow = styled.div`
   display: grid;
-  grid-auto-columns: minmax(auto, 1fr);
+  grid-auto-columns: minmax(auto, 2fr);
   align-items: center;
   grid-template-areas: ${({ imgStart }) =>
     imgStart ? "'col2 col1'" : "'col1 col2'"};
@@ -34,7 +34,7 @@ export const ContactRow = styled.div`
 
   @media screen and (max-width: 768px) {
     grid-template-areas: ${({ imgStart }) =>
-      imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`};
+      imgStart ? `'col2' 'col1'` : `'col1 col1' 'col2 col2'`};
   }
 `;
 
@@ -73,7 +73,7 @@ export const TopLine = styled.div`
 
 export const Heading = styled.h1`
   margin-bottom: 20px;
-  font-size: 24px;
+  font-size: 1.4rem;
   line-height: 1.1;
   font-weight: 600;
   color: ${({ lightText }) => (lightText ? '#000000' : '#e7e7e7')};
@@ -100,11 +100,10 @@ export const ImgWrap = styled.div`
 `;
 
 export const Img = styled.img`
-  width: 80%;
+  width: 100%;
   margin-top: 0;
-  /* margin-right: 0; */
+  margin-right: 0;
   margin-left: 10px;
-  /* padding-right: 50px; */
-  border-radius: 200px;
-  filter: greyscale(30%) brightness(0.4);
+  border-radius: 120px;
+  filter: brightness(0.6);
 `;
